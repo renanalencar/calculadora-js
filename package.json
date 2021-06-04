@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/renanalencar/calculadora-js/issues"
   },
-  "homepage": "https://github.com/renanalencar/calculadora-js#readme"
+  "homepage": "https://github.com/renanalencar/calculadora-js#readme",
+  "devDependencies": {
+    "jasmine": "^3.7.0"
+  }
 }
