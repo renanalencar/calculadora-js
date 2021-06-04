@@ -12,6 +12,9 @@ describe("Suíte de testes de divisão", function() {
         expect(Calculadora.dividir(4.5, 3)).toEqual(1.5);
         expect(Calculadora.dividir('4.5', '3')).toEqual(1.5);
     });
+    it('deve retornar "Erro" para divisão por 0', function() {
+        expect(Calculadora.dividir(5, 0)).toEqual('Erro');
+    });
     it('deve retornar 0 quando o valor 1 não for numérico', function() {
         expect(Calculadora.dividir(undefined, 5)).toEqual(0);
     });
