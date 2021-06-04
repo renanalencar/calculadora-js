@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/renanalencar/calculadora-js#readme",
   "devDependencies": {
-    "jasmine": "^3.7.0"
+    "jasmine": "^3.7.0",
+    "karma": "^6.3.3",
+    "karma-firefox-launcher": "^2.1.1",
+    "karma-jasmine": "^4.0.1"
   }
 }
